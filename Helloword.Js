@@ -1,35 +1,27 @@
-const employees = {
+const employees = [
+{
     id: 1,
     fio: "Помидоркина Анжела Витальевна",
     birthday: "24.04.2004",
-    gender: "Ж",
-
+    gender: "Ж"
+},
+{
     id: 2,
     fio: "Тушканчиков Дмитрий Викторович",
     birthday: "23.09.1998",
-    gender: "м",
-};
-const clients = {
+    gender: "м"
+},
+{
     id: 3,
-    fio: "Баклажанов Борис Каримович",
-    birthday: "28.10.1908",
-    gender: "м",
-
+    fio: "Баклажанов Борис Эдуардович",
+    birthday: "24.09.1987",
+    gender: "м"
+},
+{ 
     id: 4,
-    fio: "Криволинейная Карина Эдуардовна",
-    birthday: "11.01.2000",
-    gender: "Ж",
-};
-const contacts = {
-    id: 5,
-    fio: "Тушканчиков Дмитрий Викторвич",
-    phone: "+79826718373",
-    e_mail: "Tushkanchik21yo@mail.ru",
-
-    id: 6,
-    fio: "Баклажанов Борис Каримович",
-    phone: "+79123456178",
-    e_mail: "BorisBaclazhan@mail.ru",
-};
-
-console.log(employees.id + " - " + employees.fio + " - " + employees.birthday + " - " + employees.gender + " - " + clients.id + " - " + clients.fio + " - " + clients.birthday + " - " + clients.gender);
+    fio: "Лимонов Леонид Львов",
+    birthday: "11.11.1991",
+    gender: "м"
+}
+]
+console.log(employees[1].id + " - " + employees[1].fio + " - " + employees[1].birthday + " - " + employees[1].gender)
